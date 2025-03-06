@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ManavKasa {
     public static void main(String[] args) {
+        //Değişkenler atandı
         double armutFiyat = 2.14;
         double elmaFiyat =3.67;
         double domatesFiyat=1.11;
@@ -9,7 +10,7 @@ public class ManavKasa {
         double patlicanFiyat = 5.00;
 
         Scanner scanner = new Scanner(System.in);
-
+        //Kullacıdan input alınıyor
         System.out.println("Armut Kaç Kilo ? : ");
         int armutKilo = scanner.nextInt();
 
@@ -24,8 +25,7 @@ public class ManavKasa {
 
         System.out.println("Patlıcan Kaç Kilo ? : ");
         int patlicanKilo=scanner.nextInt();
-
-
+        //Toplam Fiyat hesaplama
         double toplamFiyat = (armutFiyat * armutKilo) +
                 (elmaFiyat * elmaKilo) +
                 (domatesFiyat * domatesKilo) +
